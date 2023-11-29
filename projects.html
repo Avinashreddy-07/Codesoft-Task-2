@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0px;
+        background-color: #3a4750;
+
+        text-align: left;
+      }
+
+      header {
+        background-color: #be3144;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+      }
+
+      nav {
+        font-size: 24px;
+        background-color: #303841;
+        padding: 1.5em;
+        text-align: left;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        margin: 0 0.2em;
+      }
+      nav a:hover {
+        background-color: #be3144;
+        border-radius: 14px;
+      }
+
+      section {
+        font-size: 20px;
+        padding: 20px;
+        text-align: left;
+        background-color: #d3d6db;
+        text-align: center;
+        border-radius: 20px;
+        margin: 20px auto;
+        max-width: 800px;
+        height: 500px;
+        box-shadow: 0 0 10px rgba(207, 204, 204, 0.3);
+      }
+
+      .projects {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+
+      .project-card {
+        height: auto;
+        max-width: 300px;
+        border: 2px solid #ddd;
+        border-radius: 20px;
+        padding: 1em;
+
+        margin-bottom: 20px;
+      }
+      .project-card:hover {
+        background-color: #3a4750;
+        border-radius: 20px;
+        color: #d3d6db;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kasipathi Avinash Reddy</h1>
+        <p>Web Developer | Designer</p>
+      </header>
+  
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        
+        <a href="contact.html">Contact</a>
+      </nav>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="project-card">
+            <h3>Automatic Irrigation watering system using Arduino</h3>
+            <p>
+              A smart solution for efficient watering. Utilizing LDR, soil
+              moisture, and rain sensors. It intelligently adjusts watering
+              schedules. The system's motor-driven irrigation ensures optimal
+              moisture levels, conserving water while promoting plant growth.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>Face Detection using python</h3>
+            <p>
+              The script uses Haar Cascades to detect faces in an image or video
+              feed, and draws a bounding box around each face detected. It can
+              also be modified to perform additional tasks, such as facial
+              recognition.
+            </p>
+          </div>
+</body>
+</html>
